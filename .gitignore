@@ -1,0 +1,6 @@
+# NodeJS specific #
+generator/coverage/
+generator/node_modules/
+generator/npm-debug.log
+generator/package-lock.json
+generator/test/*.log
