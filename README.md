@@ -13,17 +13,18 @@ Repository for consolidating technical buzzwords or jargons prevalent as current
 </p>
 
 # Context
-With the fast-paced technology landscape, there are modern technical buzzwords every software architect encounters on a day-to-day basis. The purpose of this blog is to enlist the majority of these buzzwords that you should know as a software architect. These are coined by industry experts, technology companies, research firms, domain experts, cloud companies, and so on. 
+With the fast-paced technology landscape, there are modern technical buzzwords every software architect encounters on a day-to-day basis. The purpose of this blog is to enlist the majority of these buzzwords that you should know as a software architect. These are coined by industry experts, technology companies, research firms, domain experts, cloud companies, and so on.  
 
-
+<br></br>
 # Process & Practices
 | Term     | Description                    | Source                     |
 | -------- | ------------------------------ | --------------------------- |
 |Design Thinking | It provides a structured process that helps innovators break free of counterproductive tendencies that thwart innovation | <a href="https://hbr.org/2018/09/why-design-thinking-works">HBR</a>|
 | Industry 4.0 | It encompasses a promise of a new industrial revolution—one that marries advanced manufacturing techniques with the Internet of Things to create manufacturing systems that are not only interconnected, but communicate, analyze, and use information to drive further intelligent action back in the physical world. | <a href="https://www2.deloitte.com/us/en/insights/focus/industry-4-0.html">Deloitte</a> |
 | Service Design | Service design helps to innovate (create new) or improve (existing) services to make them more useful, usable, desirable for clients and efficient as well as effective for organizations. It is a new holistic, multidisciplinary, integrative field. - Stefan Moritz| <a href="https://www.thisisservicedesigndoing.com/methods">Book by Adam Lawrence</a>|
-| Software 2.0 | Programmers are replaced by neural networks that use machine learning to develop software. It promises to unlock higher-order, edge use cases like autonomous vehicles, where the only way to progress is through AI models.| <a href="https://www.mckinsey.com/business-functions/mckinsey-digital/our-insights/the-top-trends-in-tech">McKinsey</a>
+| Software 2.0 | Programmers are replaced by neural networks that use machine learning to develop software. It promises to unlock higher-order, edge use cases like autonomous vehicles, where the only way to progress is through AI models.| <a href="https://www.mckinsey.com/business-functions/mckinsey-digital/our-insights/the-top-trends-in-tech">McKinsey</a> |  
 
+<br></br>
 # Architecture & Design
 | Term     | Description                    | Source                     |
 | -------- | ------------------------------ | --------------------------- |
@@ -36,7 +37,9 @@ With the fast-paced technology landscape, there are modern technical buzzwords e
 # User Experience
 | Term     | Description                    | Source                     |
 | -------- | ------------------------------ | --------------------------- |
-| Human-centered Design (HCD) | It is an approach to problem solving, commonly used in design and management frameworks that develops solutions to problems by involving the human perspective in all steps of the problem-solving process.| <a href=" https://www.hcd.school/">HCD</a>
+| Human-centered Design (HCD) | It is an approach to problem solving, commonly used in design and management frameworks that develops solutions to problems by involving the human perspective in all steps of the problem-solving process.| <a href=" https://www.hcd.school/">HCD</a> |
+| User-centered Design (UCD) | User-centered design (UCD) is an iterative design process in which designers focus on the users and their needs in each phase of the design process. In UCD, design teams involve users throughout the design process via a variety of research and design techniques, to create highly usable and accessible products for them. There are subtle differences with human-centered design such as HCD focuses on humanity and human groups than specific users. | <a href="https://www.interaction-design.org/literature/topics/user-centered-design">Interaction Design</a>
+| Websocket API | WebSocket API is an advanced technology that makes it possible to open a two-way interactive communication session between the user's browser and a server. | <a href="https://developer.mozilla.org/en-US/docs/Web/API/WebSockets_API">Mozilla</a>
 
 # Application, IoT & Services
 | Term     | Description                    | Source                     |
@@ -60,6 +63,7 @@ With the fast-paced technology landscape, there are modern technical buzzwords e
 | -------- | ------------------------------ | --------------------------- |
 | Data Lake | A data lake is a centralized repository that allows you to store all your structured and unstructured data at any scale. You can store your data as-is, without having to first structure the data, and run different types of analytics—from dashboards and visualizations to big data processing, real-time analytics, and machine learning to guide better decisions. | <a href="https://aws.amazon.com/big-data/datalakes-and-analytics/what-is-a-data-lake/">AWS</a> |
 | Data Hub | A data hub is a collection of data from multiple sources organized for distribution, sharing, and often subsetting and sharing. It differs from a data lake by homogenizing data and possibly serving data in multiple desired formats, rather than simply storing it in one place, and by adding other value to the data such as de-duplication, quality, security, and a standardized set of query services. | <a href="https://en.wikipedia.org/wiki/Data_hub">Wikipedia</a> |
+| Data Mesh | Data mesh is an architectural and organizational paradigm that challenges the age-old assumption that we must centralize big analytical data to use it, have data all in one place or be managed by a centralized data team to deliver value. | <a href="https://www.thoughtworks.com/radar/techniques/data-mesh">ThoughtWorks</a>
 | Data Fabric |  A platform for “orchestrating disparate data sources intelligently and securely in a self-service and automated manner to deliver a unified, trusted, and comprehensive real-time view of customer and business data across the enterprise. | <a href="https://www.forrester.com/report/Enterprise+Data+Fabric+Enables+DataOps/RES153219">Forrester</a> |
 | DataOps | DataOps is a set of practices and technologies that operationalize data management and integration to ensure resiliency and agility in the face of constant change. It helps you tease order and discipline out of the chaos and solve the big challenges to turning data into business value. | <a href="https://streamsets.com/why-dataops/what-is-dataops/">DataOps Summit</a>
 | Hybrid transaction/analytical processing (HTAP) | Term coined by Gartner -  It is an emerging application architecture that "breaks the wall" between transaction processing and analytics. It enables more informed and "in business real time" decision making | <a href="https://www.gartner.com/en/information-technology/glossary/htap-enabling-memory-computing-technologies">Gartner</a> |
@@ -68,7 +72,10 @@ With the fast-paced technology landscape, there are modern technical buzzwords e
 # Cloud
 | Term     | Description                    | Source                     |
 | -------- | ------------------------------ | --------------------------- |
+| As-a-Service | Refers to something being presented to a customer, either internal or external, as a service, always in the context of cloud computing. Key examples are: </br><ul><li>Content as a service</li><li>Data as a service</li><li>Desktop as a service</li><li>Function as a service</li><li>Infrastructure as a service</li><li>Integration platform as a service</li><li>Mobile backend as a service</li><li>Network as a service</li><li>Platform as a service</li><li>Security as a service</li><li>Software as a service</li></ul> | <a href="https://en.wikipedia.org/wiki/As_a_service">Wikipedia</a> |
+| Cloud security posture management (CSPM) | Term coined by Gartner - Forrester uses "Cloud Security Too" - It is a market segment for IT security tools that are designed to identify misconfiguration issues and compliance risks in the cloud. An important purpose of CSPM programming is to continuously monitor cloud infrastructure for gaps in security policy enforcement.| <a href="https://www.gartner.com/en/documents/3899373/innovation-insight-for-cloud-security-posture-management">Gartner</a>
 | Distributed Cloud | Distributed cloud is where cloud services are distributed to different physical locations, but the operation, governance and evolution remain the responsibility of the public cloud provider. | <a href="https://www.gartner.com/smarterwithgartner/the-cios-guide-to-distributed-cloud/">Gartner</a> |
+| Serverless Framework | To avoid cloud vendor lock-in Serverless Frameworks provide capabilities to build your own Serverless platform to provide Function-as-a-Service capability, which can be Cloud hosted or Hybrid-hosted. Examples are OpenFaaS, Kubeless, KNative, and Serverless. | |
 
 
 # Infrastructure & DevOps
@@ -82,6 +89,7 @@ With the fast-paced technology landscape, there are modern technical buzzwords e
 # AI & Machine Learning
 | Term     | Description                    | Source                     |
 | -------- | ------------------------------ | --------------------------- |
+| Feature Store | Feature Store is an ML-specific data platform that addresses with fundamental capabilities: (1) it uses managed data pipelines to remove struggles with pipelines as new data arrives; (2) catalogs and stores feature data to promote discoverability and collaboration of features across models; and (3) consistently serves feature data during training and interference. | <a href="https://www.thoughtworks.com/radar/platforms/feature-store">ThoughtWorks</a>
 | ModelOps | ModelOps (or AI model operationalization) is focused primarily on the governance and life cycle management of a wide range of operationalized artificial intelligence (AI) and decision models, including machine learning, knowledge graphs, rules, optimization, linguistic and agent-based models. | <a href="https://www.gartner.com/en/information-technology/glossary/modelops">Gartner</a> |
 | MLOps | MLOps is a subset of ModelOps. MLOps is focused on the operationalization of ML models, while ModelOps covers the operationalization of all types of AI models. | <a href="https://www.modelop.com/modelops-and-mlops/">ModelOp</a>
 
