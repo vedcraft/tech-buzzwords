@@ -1,0 +1,25 @@
+{
+  "name": "tech-buzzwords",
+  "version": "1.0.0",
+  "description": "Generate HTML from Markdown",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ankurkumarz/tech-buzzwords.git"
+  },
+  "dependencies": {
+    "showdown": "^1.9.1"
+  },
+  "keywords": [
+    "tech-buzzwords"
+  ],
+  "author": "Ankur Kumar",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/ankurkumarz/tech-buzzwords/issues"
+  },
+  "homepage": "https://github.com/ankurkumarz/tech-buzzwords#readme"
+}

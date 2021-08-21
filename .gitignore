@@ -1,0 +1,5 @@
+# NodeJS specific #
+generator/coverage/
+generator/node_modules/
+generator/npm-debug.log
+generator/test/*.log
