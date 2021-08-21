@@ -34,20 +34,28 @@ With the fast-paced technology landscape, there are modern technical buzzwords e
 | MSA (Microservices Architecture) | is an approach to developing a single application as a suite of small services, each running in its own process and communicating with lightweight mechanisms| <a href="martinfowler.com/articles/microservices.html">Martin Fowler</a> |
 | Web 3.0 | Berners-Lee coined the term to describe a web in which machines would process content in a humanlike way (i.e., a “Global Brain” where all data would be connected and understood both contextually and conceptually).| <a href="https://www.forbes.com/sites/forbestechcouncil/2020/01/06/what-is-web-3-0">Forbes</a> |
 
-# User Experience
+<br></br>
+
+# User Experience & User Interface (UI)
 | Term     | Description                    | Source                     |
 | -------- | ------------------------------ | --------------------------- |
 | Human-centered Design (HCD) | It is an approach to problem solving, commonly used in design and management frameworks that develops solutions to problems by involving the human perspective in all steps of the problem-solving process.| <a href=" https://www.hcd.school/">HCD</a> |
 | User-centered Design (UCD) | User-centered design (UCD) is an iterative design process in which designers focus on the users and their needs in each phase of the design process. In UCD, design teams involve users throughout the design process via a variety of research and design techniques, to create highly usable and accessible products for them. There are subtle differences with human-centered design such as HCD focuses on humanity and human groups than specific users. | <a href="https://www.interaction-design.org/literature/topics/user-centered-design">Interaction Design</a>
 | Websocket API | WebSocket API is an advanced technology that makes it possible to open a two-way interactive communication session between the user's browser and a server. | <a href="https://developer.mozilla.org/en-US/docs/Web/API/WebSockets_API">Mozilla</a>
+| WebAssembly | WebAssembly is a new type of code that can be run in modern web browsers and provides new features and major gains in performance. It is not primarily intended to be written by hand, rather it is designed to be an effective compilation target for source languages like C, C++, Rust, etc. | <a href="https://developer.mozilla.org/en-US/docs/WebAssembly/Concepts">Mozilla</a> |
+
+<br></br>
 
 # Application, IoT & Services
 | Term     | Description                    | Source                     |
 | -------- | ------------------------------ | --------------------------- |
+| gRPC | gRPC is a modern open source high performance Remote Procedure Call (RPC) framework - built by Google - that can run in any environment. It can efficiently connect services in and across data centers with pluggable support for load balancing, tracing, health checking and authentication. It is also applicable in last mile of distributed computing to connect devices, mobile applications and browsers to backend services. | <a href="https://grpc.io">gRPC</a>
 | Internet of Behaviours | The Internet of Behavior can be considered as a combination of three fields viz. technology, data analytics, and behavioral science.| <a href="https://iotdesignpro.com/articles/what-is-internet-of-behavior-iob">IoTDesignPro</a>
 | Industrial IIoT | The Industrial Internet of Things allows companies to integrate devices, sensors, and machines used for manufacturing processes and to enable a common platform for gathering and analyzing the data these sensors and devices record. | <a href="https://www.mckinsey.com/business-functions/mckinsey-digital/our-insights/a-manufacturers-guide-to-generating-value-at-scale-with-industrial-iot">McKinsey</a>|
+| NATS | NATS is a connective technology built for the ever increasingly hyper-connected world. It is a single technology that enables applications to securely communicate across any combination of cloud vendors, on-premise, edge, web and mobile, and devices. | <a href="https://nats.io/about/">NATS</a>
 | Service Mesh | A service mesh is a dedicated infrastructure layer that you can add to your applications. It allows you to transparently add capabilities like observability, traffic management, and security, without adding them to your own code. | <a href="https://istio.io/latest/about/service-mesh/">Istio</a>
 
+<br></br>
 
 # Security
 | Term     | Description                    | Source                     |
@@ -57,6 +65,7 @@ With the fast-paced technology landscape, there are modern technical buzzwords e
 | Supply Chain Attack |  Supply chain attack covers any instance where an attacker interferes with any stage of the software “manufacturing” process or a Software Development Life Cycle (SDLC). Examples are: Untrusted code libraries, Trojanized software update, Stolen code-signing certificates, etc. | <a href="https://blog.sonatype.com/what-constitutes-a-software-supply-chain-attack">Sonatype</a>
 | Zero Trust Security | Instead of assuming everything behind the corporate firewall is safe, the Zero Trust model assumes breach and verifies each request as though it originates from an open network. | <a href="https://www.microsoft.com/en-us/security/business/zero-trust">Microsoft</a> |
 
+<br></br>
 
 # Data Engineering
 | Term     | Description                    | Source                     |
@@ -69,6 +78,8 @@ With the fast-paced technology landscape, there are modern technical buzzwords e
 | Hybrid transaction/analytical processing (HTAP) | Term coined by Gartner -  It is an emerging application architecture that "breaks the wall" between transaction processing and analytics. It enables more informed and "in business real time" decision making | <a href="https://www.gartner.com/en/information-technology/glossary/htap-enabling-memory-computing-technologies">Gartner</a> |
 | Translytical Data Platform | Term coined by Forrester (similar to Gartner's HTAP) -   is a unified database that supports transactions, analytics, operational insights and other workloads in real-time without sacrificing transactional integrity, performance or scale | <a href="https://www.forrester.com/webinar/Translytical+Data+Platforms+Delivering+Analytics+At+The+Speed+Of+Transactions/-/E-WEB30345">Forrester</a>
 
+<br></br>
+
 # Cloud
 | Term     | Description                    | Source                     |
 | -------- | ------------------------------ | --------------------------- |
@@ -77,6 +88,7 @@ With the fast-paced technology landscape, there are modern technical buzzwords e
 | Distributed Cloud | Distributed cloud is where cloud services are distributed to different physical locations, but the operation, governance and evolution remain the responsibility of the public cloud provider. | <a href="https://www.gartner.com/smarterwithgartner/the-cios-guide-to-distributed-cloud/">Gartner</a> |
 | Serverless Framework | To avoid cloud vendor lock-in Serverless Frameworks provide capabilities to build your own Serverless platform to provide Function-as-a-Service capability, which can be Cloud hosted or Hybrid-hosted. Examples are OpenFaaS, Kubeless, KNative, and Serverless. | |
 
+<br></br>
 
 # Infrastructure & DevOps
 | Term     | Description                    | Source                     |
@@ -86,11 +98,11 @@ With the fast-paced technology landscape, there are modern technical buzzwords e
 | SRE (Site Reliability Engineering) | SRE team is responsible for the availability, latency, performance, efficiency, change management, monitoring, emergency response, and capacity planning of their service(s). | <a href="https://sre.google/sre-book/table-of-contents/">SRE Google Book</a> |
 | Unikernel | Unikernels are specialised, single-address-space machine images constructed by using library operating systems. | <a href="https://unikernel.org/">Unikernel.org</a>
 
+<br></br>
+
 # AI & Machine Learning
 | Term     | Description                    | Source                     |
 | -------- | ------------------------------ | --------------------------- |
 | Feature Store | Feature Store is an ML-specific data platform that addresses with fundamental capabilities: (1) it uses managed data pipelines to remove struggles with pipelines as new data arrives; (2) catalogs and stores feature data to promote discoverability and collaboration of features across models; and (3) consistently serves feature data during training and interference. | <a href="https://www.thoughtworks.com/radar/platforms/feature-store">ThoughtWorks</a>
 | ModelOps | ModelOps (or AI model operationalization) is focused primarily on the governance and life cycle management of a wide range of operationalized artificial intelligence (AI) and decision models, including machine learning, knowledge graphs, rules, optimization, linguistic and agent-based models. | <a href="https://www.gartner.com/en/information-technology/glossary/modelops">Gartner</a> |
-| MLOps | MLOps is a subset of ModelOps. MLOps is focused on the operationalization of ML models, while ModelOps covers the operationalization of all types of AI models. | <a href="https://www.modelop.com/modelops-and-mlops/">ModelOp</a>
-
-
+| MLOps | MLOps is a subset of ModelOps. MLOps is focused on the operationalization of ML models, while ModelOps covers the operationalization of all types of AI models. | <a href="https://www.modelop.com/modelops-and-mlops/">ModelOp</a> |
